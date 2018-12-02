@@ -1,0 +1,36 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.microserviceapp"
+    },
+    "jhipsterVersion": "5.7.0",
+    "applicationType": "microservice",
+    "baseName": "conference",
+    "packageName": "com.microserviceapp",
+    "packageFolder": "com/microserviceapp",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "Yjk5MmU3NWUyMTk4YjViMThhYTY4ZGQ3ZjA5ZTEyNmVlODU1MzcyODlkYWIwYmQwZWYzOThhMGIwMjBiNTkyYzE2ZGJhNjY4ZWRhZWIzNGVhN2VhNDY1OWVmZTU4MTdmNDFhODBhYWEzZjhiN2Q4ZWUyNmRiOTJlMmNlMjlhNTY=",
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ],
+    "jhiPrefix": "jhi",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

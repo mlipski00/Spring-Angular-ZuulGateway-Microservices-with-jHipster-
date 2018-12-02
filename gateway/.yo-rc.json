@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.microserviceapp"
+    },
+    "jhipsterVersion": "5.7.0",
+    "applicationType": "gateway",
+    "baseName": "gateway",
+    "packageName": "com.microserviceapp",
+    "packageFolder": "com/microserviceapp",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "YzdlNTE1Y2MyNTJkZWRlZjg1MDVkYTc4YzNkNjg0MTdjN2Y0NTNhZjFhYWViYjFkN2FhNzUyOTUwZDU2YTM4NmZmN2Y4NTIxMjg5NjYyMDIxZmE2NWUyNmJjMGYzNTY4NmJhMzRkODdjZWVhYWY0YTcxMjdkOWEzNWI4MDFkZjc=",
+    "clientFramework": "angularX",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling",
+      "cucumber",
+      "protractor"
+    ],
+    "jhiPrefix": "jhi",
+    "otherModules": [],
+    "enableTranslation": false
+  }
+}
