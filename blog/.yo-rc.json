@@ -1,0 +1,36 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.microserviceapp"
+    },
+    "jhipsterVersion": "5.7.0",
+    "applicationType": "microservice",
+    "baseName": "blog",
+    "packageName": "com.microserviceapp",
+    "packageFolder": "com/microserviceapp",
+    "serverPort": "8082",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MjM5MjkyNzcwNWY2ZTg4OGMyN2I3Y2RjZTMyOGY4OGE5ZDlmYTZiYzQ4MGU1NTA2N2UxNWFmZjY1MTA5YWYzMDAwYTQ5MTkxODgwYmJjYmZhNGRlZDYyYzQ3MGIwZmFkNjMwMzk1ZWQxZjJmMzFhM2ZjYzI0OGY2NmYxZjMzODY=",
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ],
+    "jhiPrefix": "jhi",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
